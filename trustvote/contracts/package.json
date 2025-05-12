@@ -1,0 +1,16 @@
+{
+  "name": "trustvote-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for TrustVote",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.cjs --network base_sepolia",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.0"
+  }
+} 
